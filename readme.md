@@ -11,7 +11,7 @@ High-performance and accurate **traffic sign detection** using **YOLOv11**, supp
 ✔️ **Real-time Image & Video Detection**  
 ✔️ **CUDA Accelerated Inference**  
 ✔️ **AMP (Automatic Mixed Precision) Enabled**  
-✔️ **TensorRT Optimization (In Development 🚧)**  
+🚧 **TensorRT Optimization (In Development)**  
 
 ---
 
