@@ -2,7 +2,8 @@
 
 High-performance and accurate **traffic sign detection** using **YOLOv11**, supporting **real-time image & video processing** with **CUDA acceleration**. Train locally using **Kaggle's Traffic Sign dataset** and **fine-tune with YOLOv11s.pt pre-trained model**.  
 
-![YOLOv11 Detection](https://github.com/yourusername/yourproject/raw/main/demo.gif)
+![Traffic Sign Detection Gif](https://github.com/j89103138/YOLOv11-Traffic-Sign/raw/main/assets/demo.gif)
+![Traffic Sign Detection img](https://github.com/j89103138/YOLOv11-Traffic-Sign/raw/main/assets/demo.jpg)
 
 ---
 
