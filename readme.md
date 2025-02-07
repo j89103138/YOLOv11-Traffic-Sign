@@ -17,12 +17,13 @@ High-performance and accurate **traffic sign detection** using **YOLOv11**, supp
 
 ## 📦 Installation  
 
-Ensure you have **Python 3.8+**, **PyTorch**, and **CUDA 11.0+** installed.  
+Ensure you have **Python**, **PyTorch**, and **CUDA** installed.  
+My testing platform : Python 3.10+ , torch 2.6.0+cu126, CUDA 12.8
 
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+git clone https://github.com/j89103138/YOLOv11-Traffic-Sign.git
+cd YOLOv11-Traffic-Sign
 
 # Install dependencies
 pip install -r requirements.txt
