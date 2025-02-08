@@ -69,15 +69,17 @@ python webcam.py --weights best.pt --conf 0.5 --device 0
 
 ```
 📂 YOLOv11-Traffic-Sign
- ┣ 📂 models/           # YOLO model config
- ┣ 📂 datasets/         # Traffic sign dataset
- ┣ 📂 utils/            # Utility functions
- ┣ 📄 train.py          # Training script
- ┣ 📄 val.py            # Validation script
- ┣ 📄 detect.py         # Inference on images/videos
- ┣ 📄 webcam.py         # Live webcam detection
- ┣ 📄 README.md         # Project documentation
- ┗ 📄 LICENSE           # MIT License
+ ┣ 📂 archive              # special thanks Kaggle:pkdarabi 's dataset
+ ┣ 📂 assets               #gif and images
+ ┣ 📄 train.py             # Training model
+ ┣ 📄 val.py               # Validation model
+ ┣ 📄 detect.py            # Inference on images/videos
+ ┣ 📄 webcam.py            # Live webcam detection
+ ┣ 📄 checkmodeltype.py    # check model type ( would be useful if you're on different type of model)
+ ┣ 📄 read_results.py      # use pandas for easy summarize model performance
+ ┣ 📄 benchmark.py         # for benchmarking by epochs and times
+ ┣ 📄 README.md            # Project documentation
+ ┗ 📄 LICENSE.md           # License
 ```
 
 ---
@@ -106,20 +108,23 @@ We welcome contributions! To contribute, follow these steps:
 
 ## 📜 License  
 
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.  
+This project is licensed under the **CC BY 4.0 LICENSE**. See [LICENSE](LICENSE.md) for details.  
 
 ```
-MIT License
+Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Copyright (c) 2025 Your Name
+2025 Shawn Liu 
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-...
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+You are free to:
+- Share — copy and redistribute the material in any medium or format.
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+For more details, see https://creativecommons.org/licenses/by/4.0/
 ```
 
 ---
