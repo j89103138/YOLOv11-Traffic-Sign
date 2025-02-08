@@ -80,6 +80,16 @@ python webcam.py --weights best.pt --conf 0.5 --device 0
 
 ---
 
+## 🔍  Performance Metrics 
+
+![labels](https://github.com/j89103138/YOLOv11-Traffic-Sign/raw/main/assets/labels.jpg)
+![F1 curve](https://github.com/j89103138/YOLOv11-Traffic-Sign/raw/main/assets/F1_curve.png)
+![PR curve](https://github.com/j89103138/YOLOv11-Traffic-Sign/raw/main/assets/PR_curve.png)
+![confusion matrix](https://github.com/j89103138/YOLOv11-Traffic-Sign/raw/main/assets/confusion_matrix.png)
+![results](https://github.com/j89103138/YOLOv11-Traffic-Sign/raw/main/assets/results.png)
+
+---
+
 ## 🤝 Contributing  
 
 We welcome contributions! To contribute, follow these steps:  
