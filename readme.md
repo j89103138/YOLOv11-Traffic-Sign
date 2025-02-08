@@ -29,6 +29,8 @@ cd YOLOv11-Traffic-Sign
 # Install dependencies
 pip install -r requirements.txt
 ```
+You can find dataset to download here on Kaggle: 
+https://www.kaggle.com/datasets/pkdarabi/cardetection/data
 
 ---
 
