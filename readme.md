@@ -37,30 +37,34 @@ https://www.kaggle.com/datasets/pkdarabi/cardetection/data
 ## 🔧 Usage  
 
 ### 🏋️ Train a New Model  
-If you want to train the model from scratch using the **Traffic Sign Dataset**, run:  
+If you want to train the model from using pretrained yolo model, using the **Traffic Sign Dataset**, run:  
 
 ```sh
-python train.py --data dataset.yaml --cfg yolov11.yaml --weights yolov11s.pt --device 0
+python train.py
+#you have to set some path manually
 ```
 
 ### 📊 Validate Model Performance  
 To evaluate the trained model on the validation dataset, run:  
 
 ```sh
-python val.py --weights runs/train/exp/weights/best.pt --data dataset.yaml
+python val.py
+#you have to set some path manually
 ```
 
 ### 🎥 Image & Video Detection  
 Run YOLOv11 on images or videos:  
 
 ```sh
-python detect.py --source sample.jpg --weights best.pt --conf 0.5 --device 0
+python detect.py
+#you have to set some path manually
 ```
 
 For **live webcam detection**, use:  
 
 ```sh
-python webcam.py --weights best.pt --conf 0.5 --device 0
+python webcam.py
+#you have to set some path manually
 ```
 
 ---
